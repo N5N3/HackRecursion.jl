@@ -3,6 +3,9 @@ uuid = "a51924b7-bf7f-4e90-9a8a-351adcf2fc72"
 authors = ["N5N3"]
 version = "0.1.0"
 
+[deps]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+
 [compat]
 julia = "1"
 
