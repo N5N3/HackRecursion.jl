@@ -1,0 +1,13 @@
+name = "HackRecursion"
+uuid = "a51924b7-bf7f-4e90-9a8a-351adcf2fc72"
+authors = ["N5N3"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
