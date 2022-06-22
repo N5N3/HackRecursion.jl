@@ -47,5 +47,5 @@ julia> Base.return_types(f, Base.typesof((1,2,3,4,5,6), (), Val(4)))
 ```
 
 ## Limitation
-1. You can only add one `[]`
+1. Multiple `[]`s require the marked the arguments reducing at the same time.
 2. `kwargs` and `Vararg` are not supported.
